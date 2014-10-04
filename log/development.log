@@ -243,3 +243,23 @@ Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 Started GET "/articles" for 127.0.0.1 at 2014-10-04 12:06:58 -0600
 Processing by V1::ArticlesController#index as JSON
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-04 12:09:40 -0600
+Processing by V2::ArticlesController#index as ARTICLES_JSON
+Completed 200 OK in 25ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-10-04 12:09:51 -0600
+Processing by V1::ArticlesController#index as ARTICLES_JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles.json" for 127.0.0.1 at 2014-10-04 12:10:50 -0600
+Processing by V2::ArticlesController#index as JSON
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles.json" for 127.0.0.1 at 2014-10-04 12:10:56 -0600
+Processing by V2::ArticlesController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
